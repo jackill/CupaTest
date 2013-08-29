@@ -18,6 +18,15 @@
 		CE784E6417645DCB00165FD5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE784E6317645DCB00165FD5 /* Default-568h@2x.png */; };
 		CE784E6717645DCB00165FD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE784E6617645DCB00165FD5 /* ViewController.m */; };
 		CE784E6A17645DCB00165FD5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE784E6817645DCB00165FD5 /* ViewController.xib */; };
+		CE784E7117645E1100165FD5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE784E7017645E1100165FD5 /* CFNetwork.framework */; };
+		CE784E7317645E1A00165FD5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE784E7217645E1A00165FD5 /* ExternalAccessory.framework */; };
+		CE784E7517645E2100165FD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE784E7417645E2100165FD5 /* QuartzCore.framework */; };
+		CE784E7F1764636300165FD5 /* PosCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = CE784E7E1764636300165FD5 /* PosCommunication.m */; };
+		CE784E831764637900165FD5 /* QuanYiPos.m in Sources */ = {isa = PBXBuildFile; fileRef = CE784E821764637900165FD5 /* QuanYiPos.m */; };
+		CE784E911764758E00165FD5 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE784E8F1764758E00165FD5 /* DebugViewController.m */; };
+		CE784E921764758E00165FD5 /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE784E901764758E00165FD5 /* DebugViewController.xib */; };
+		CE784E9A176489C400165FD5 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CE784E97176489C400165FD5 /* AsyncSocket.m */; };
+		CE784E9B176489C400165FD5 /* SocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CE784E99176489C400165FD5 /* SocketConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,22 @@
 		CE784E6517645DCB00165FD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE784E6617645DCB00165FD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE784E6917645DCB00165FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE784E7017645E1100165FD5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CE784E7217645E1A00165FD5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		CE784E7417645E2100165FD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE784E7D1764636300165FD5 /* PosCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosCommunication.h; sourceTree = "<group>"; };
+		CE784E7E1764636300165FD5 /* PosCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosCommunication.m; sourceTree = "<group>"; };
+		CE784E811764637900165FD5 /* QuanYiPos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanYiPos.h; sourceTree = "<group>"; };
+		CE784E821764637900165FD5 /* QuanYiPos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanYiPos.m; sourceTree = "<group>"; };
+		CE784E851764651900165FD5 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Util/MBProgressHUD.h; sourceTree = "<group>"; };
+		CE784E861764651900165FD5 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Util/MBProgressHUD.m; sourceTree = "<group>"; };
+		CE784E8E1764758E00165FD5 /* DebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		CE784E8F1764758E00165FD5 /* DebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
+		CE784E901764758E00165FD5 /* DebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
+		CE784E96176489C400165FD5 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		CE784E97176489C400165FD5 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		CE784E98176489C400165FD5 /* SocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketConnection.h; sourceTree = "<group>"; };
+		CE784E99176489C400165FD5 /* SocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE784E7517645E2100165FD5 /* QuartzCore.framework in Frameworks */,
+				CE784E7317645E1A00165FD5 /* ExternalAccessory.framework in Frameworks */,
+				CE784E7117645E1100165FD5 /* CFNetwork.framework in Frameworks */,
 				CE784E4E17645DCB00165FD5 /* UIKit.framework in Frameworks */,
 				CE784E5017645DCB00165FD5 /* Foundation.framework in Frameworks */,
 				CE784E5217645DCB00165FD5 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +84,10 @@
 		CE784E4117645DCB00165FD5 = {
 			isa = PBXGroup;
 			children = (
+				CE784E95176489C400165FD5 /* Socket */,
+				CE784E841764650200165FD5 /* Util */,
+				CE784E801764637900165FD5 /* Trans */,
+				CE784E7C1764636300165FD5 /* BlueTooth */,
 				CE784E5317645DCB00165FD5 /* CupaTest */,
 				CE784E4C17645DCB00165FD5 /* Frameworks */,
 				CE784E4B17645DCB00165FD5 /* Products */,
@@ -73,6 +105,9 @@
 		CE784E4C17645DCB00165FD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE784E7417645E2100165FD5 /* QuartzCore.framework */,
+				CE784E7217645E1A00165FD5 /* ExternalAccessory.framework */,
+				CE784E7017645E1100165FD5 /* CFNetwork.framework */,
 				CE784E4D17645DCB00165FD5 /* UIKit.framework */,
 				CE784E4F17645DCB00165FD5 /* Foundation.framework */,
 				CE784E5117645DCB00165FD5 /* CoreGraphics.framework */,
@@ -89,6 +124,9 @@
 				CE784E6617645DCB00165FD5 /* ViewController.m */,
 				CE784E6817645DCB00165FD5 /* ViewController.xib */,
 				CE784E5417645DCB00165FD5 /* Supporting Files */,
+				CE784E8E1764758E00165FD5 /* DebugViewController.h */,
+				CE784E8F1764758E00165FD5 /* DebugViewController.m */,
+				CE784E901764758E00165FD5 /* DebugViewController.xib */,
 			);
 			path = CupaTest;
 			sourceTree = "<group>";
@@ -105,6 +143,44 @@
 				CE784E6317645DCB00165FD5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE784E7C1764636300165FD5 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				CE784E7D1764636300165FD5 /* PosCommunication.h */,
+				CE784E7E1764636300165FD5 /* PosCommunication.m */,
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		CE784E801764637900165FD5 /* Trans */ = {
+			isa = PBXGroup;
+			children = (
+				CE784E811764637900165FD5 /* QuanYiPos.h */,
+				CE784E821764637900165FD5 /* QuanYiPos.m */,
+			);
+			path = Trans;
+			sourceTree = "<group>";
+		};
+		CE784E841764650200165FD5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE784E851764651900165FD5 /* MBProgressHUD.h */,
+				CE784E861764651900165FD5 /* MBProgressHUD.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CE784E95176489C400165FD5 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				CE784E96176489C400165FD5 /* AsyncSocket.h */,
+				CE784E97176489C400165FD5 /* AsyncSocket.m */,
+				CE784E98176489C400165FD5 /* SocketConnection.h */,
+				CE784E99176489C400165FD5 /* SocketConnection.m */,
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +239,7 @@
 				CE784E6217645DCB00165FD5 /* Default@2x.png in Resources */,
 				CE784E6417645DCB00165FD5 /* Default-568h@2x.png in Resources */,
 				CE784E6A17645DCB00165FD5 /* ViewController.xib in Resources */,
+				CE784E921764758E00165FD5 /* DebugViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +253,11 @@
 				CE784E5A17645DCB00165FD5 /* main.m in Sources */,
 				CE784E5E17645DCB00165FD5 /* AppDelegate.m in Sources */,
 				CE784E6717645DCB00165FD5 /* ViewController.m in Sources */,
+				CE784E7F1764636300165FD5 /* PosCommunication.m in Sources */,
+				CE784E831764637900165FD5 /* QuanYiPos.m in Sources */,
+				CE784E911764758E00165FD5 /* DebugViewController.m in Sources */,
+				CE784E9A176489C400165FD5 /* AsyncSocket.m in Sources */,
+				CE784E9B176489C400165FD5 /* SocketConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +345,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CupaTest/CupaTest-Prefix.pch";
 				INFOPLIST_FILE = "CupaTest/CupaTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CupaTest/CupaTest-Prefix.pch";
 				INFOPLIST_FILE = "CupaTest/CupaTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +382,7 @@
 				CE784E6F17645DCB00165FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

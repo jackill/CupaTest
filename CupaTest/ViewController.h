@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PosCommunication.h"
+#import "QuanYiPos.h"
+#import "DebugViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    IBOutlet UITableView *tableview;
+    Boolean connected;
+}
+@property (nonatomic,retain)    NSMutableArray *booklistcontent;
 
 @end
